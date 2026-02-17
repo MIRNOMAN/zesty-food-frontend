@@ -115,6 +115,7 @@ export default function ExclusiveOffer() {
             speed: 800,
             easing: "cubic-bezier(0.25, 1, 0.5, 1)",
             autoplay: true,
+             arrows: false,
             interval: 5000,
             pauseOnHover: true,
             breakpoints: {
@@ -129,7 +130,7 @@ export default function ExclusiveOffer() {
               },
             },
             pagination: false,
-            arrows: true,
+          
           }}
         >
           {offers.map((offer) => (
