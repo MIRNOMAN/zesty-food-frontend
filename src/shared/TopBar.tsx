@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useEffect, useMemo, useState, type FormEvent } from "react";
@@ -89,8 +90,8 @@ export default function TopBar() {
         setSearchError("No locations found.");
       }
       setSearchResults(data.slice(0, 6));
-    } catch (error) {
-      setSearchError("Unable to search. Try again.");
+    } catch (error: any) {
+      setSearchError(error.message || "Unable to search. Try again.");
     } finally {
       setIsSearching(false);
     }
@@ -130,8 +131,8 @@ export default function TopBar() {
             `Lat ${latitude.toFixed(4)}, Lng ${longitude.toFixed(4)}`;
           persistLocation(label);
           setSheetOpen(false);
-        } catch (error) {
-          setGeoError("Unable to detect address. Try searching instead.");
+        } catch (error: any) {
+          setGeoError(error.message || "Unable to detect address. Try searching instead.");
         } finally {
           setIsDetecting(false);
         }
@@ -164,7 +165,7 @@ export default function TopBar() {
 
             <div className="hidden items-center gap-2 text-slate-600 md:flex">
               <MapPin className="size-4 text-slate-500" />
-              <span className="max-w-[280px] truncate" title={locationLabel}>
+              <span className="max-w-70 truncate" title={locationLabel}>
                 {locationLabel}
               </span>
               <SheetTrigger asChild>

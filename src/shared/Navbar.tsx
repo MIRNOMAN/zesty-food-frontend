@@ -69,7 +69,7 @@ export default function Navbar() {
                 <Menu className="size-5" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[280px]">
+            <SheetContent side="right" className="w-70">
               <SheetHeader>
                 <SheetTitle>Menu</SheetTitle>
               </SheetHeader>

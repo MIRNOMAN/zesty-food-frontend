@@ -4,7 +4,13 @@ import { useState } from "react";
 import Image from "next/image";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import { ChevronDown } from "lucide-react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface RestaurantOffer {
   id: number;
@@ -77,18 +83,24 @@ export default function ExclusiveOffer() {
         </div>
 
         {/* Category Dropdown - Mobile */}
-        <div className="md:hidden w-full">
-          <div className="relative">
-            <button className="flex w-full items-center justify-between rounded-full border-2 border-slate-900 bg-white px-4 py-2 text-sm font-medium text-slate-900">
-              <span className="flex items-center gap-2">
+        <div className="w-full md:hidden">
+          <Select value={activeCategory} onValueChange={setActiveCategory}>
+            <SelectTrigger className="h-11 rounded-full border-2 border-slate-900 bg-white px-4 text-sm font-medium text-slate-900">
+              <div className="flex items-center gap-2">
                 <span className="flex h-6 w-6 items-center justify-center rounded-full bg-slate-900 text-xs text-white">
                   ✓
                 </span>
-                {activeCategory}
-              </span>
-              <ChevronDown size={18} />
-            </button>
-          </div>
+                <SelectValue />
+              </div>
+            </SelectTrigger>
+            <SelectContent>
+              {categories.map((category) => (
+                <SelectItem key={category} value={category}>
+                  {category}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
         </div>
       </div>
 
@@ -132,7 +144,7 @@ export default function ExclusiveOffer() {
                 />
 
                 {/* Dark Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent" />
 
                 {/* Discount Badge */}
                 <div className="absolute right-4 top-4 rounded-lg bg-slate-900 px-3 py-1 text-sm font-bold text-white">

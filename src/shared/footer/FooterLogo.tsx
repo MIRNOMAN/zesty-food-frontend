@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 
+;
 export default function FooterLogo() {
   return (
     <div className="space-y-4">
