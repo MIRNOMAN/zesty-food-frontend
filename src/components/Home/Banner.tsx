@@ -12,7 +12,7 @@ export default function Banner() {
   return (
     <section className="container mx-auto px-4">
       <div className="relative overflow-hidden rounded-3xl border border-slate-200 mt-4 bg-white">
-        <div className="flex flex-col md:flex-row items-center  ">
+        <div className="flex flex-col md:flex-row items-center p-4 md:p-0 ">
           {/* Left Content */}
           <div className="md:w-2/6 w-full space-y-6 mb-6 md:ml-5 md:mb-0">
             <div className="text-sm md:text-lg font-bold text-slate-600">
