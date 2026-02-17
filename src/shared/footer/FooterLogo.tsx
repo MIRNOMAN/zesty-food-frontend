@@ -17,24 +17,36 @@ export default function FooterLogo() {
       </p>
 
       {/* App Store Links */}
-      <div className="flex gap-3">
-        <Link href="#" aria-label="Download on App Store">
-          <Image
-            src="/app-store.png"
-            alt="App Store"
-            width={120}
-            height={40}
-            className="h-10 w-auto"
-          />
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+        <Link
+          href="#"
+          aria-label="Download on App Store"
+          className="inline-flex items-center gap-3 rounded-xl bg-black px-4 py-2 text-white shadow-md transition-transform duration-200 hover:scale-105"
+        >
+          <span className="flex h-6 w-6 items-center justify-center rounded-full border border-white/60 text-xs font-bold">
+            A
+          </span>
+          <span className="leading-tight">
+            <span className="block text-[10px] tracking-wide text-white">
+              Download on the
+            </span>
+            <span className="block text-sm font-semibold">App Store</span>
+          </span>
         </Link>
-        <Link href="#" aria-label="Get it on Google Play">
-          <Image
-            src="/google-play.png"
-            alt="Google Play"
-            width={120}
-            height={40}
-            className="h-10 w-auto"
-          />
+        <Link
+          href="#"
+          aria-label="Get it on Google Play"
+          className="inline-flex items-center gap-3 rounded-xl bg-black px-4 py-2 text-white shadow-md transition-transform duration-200 hover:scale-105"
+        >
+          <span className="flex h-6 w-6 items-center justify-center rounded-full border border-white/60 text-xs font-bold">
+            G
+          </span>
+          <span className="leading-tight">
+            <span className="block text-[10px] tracking-wide text-white">
+              Get it on
+            </span>
+            <span className="block text-sm font-semibold">Google Play</span>
+          </span>
         </Link>
       </div>
     </div>

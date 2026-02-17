@@ -11,13 +11,13 @@ export default function FooterNewsletter() {
       </h3>
 
       {/* Email Input */}
-      <div className="flex gap-2">
+      <div className="flex items-center rounded-full bg-gray-200 p-1">
         <input
           type="email"
           placeholder="youremail@gmail.com"
-          className="flex-1 rounded-full bg-gray-200 px-4 py-2 text-sm text-slate-700 outline-none focus:ring-2 focus:ring-orange-500"
+          className="flex-1 bg-transparent px-4 py-2 text-sm text-slate-700 outline-none"
         />
-        <button className="rounded-full bg-orange-500 px-6 py-2 text-sm font-medium text-white hover:bg-orange-600 transition">
+        <button className="rounded-full bg-orange-500 px-6 py-2 text-sm font-medium text-white transition hover:bg-orange-600">
           Subscribe
         </button>
       </div>
