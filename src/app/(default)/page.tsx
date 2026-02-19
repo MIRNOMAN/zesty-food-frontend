@@ -3,6 +3,7 @@ import Advertisement from "@/components/Home/Advertisement";
 import ExclusiveOffer from "@/components/Home/ExclusiveOffer";
 import PopularCategories from "@/components/Home/PopularCategories";
 import PopularResturant from "@/components/Home/PopularResturant";
+import AboutUs from "@/components/Home/AboutUs";
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
       <ExclusiveOffer />
       <PopularCategories />
       <PopularResturant />
+
       <Advertisement />
+      <AboutUs />
     </div>
   );
 }

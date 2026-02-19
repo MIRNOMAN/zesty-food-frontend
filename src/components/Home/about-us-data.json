@@ -1,0 +1,102 @@
+{
+  "title": "Know more about us !",
+  "tabs": [
+    {
+      "id": "frequent-questions",
+      "label": "Frequent Questions",
+      "questions": [
+        "How does Order.UK work?",
+        "What payment methods are accepted?",
+        "Can I track my order in real-time?",
+        "Are there any special discounts or promotions available?",
+        "Is Order.UK available in my area?"
+      ],
+      "answer": {
+        "steps": [
+          {
+            "title": "Place an Order!",
+            "description": "Place order through our website or Mobile app",
+            "icon": "bell",
+            "badge": "plus"
+          },
+          {
+            "title": "Track Progress",
+            "description": "Your can track your order status with delivery time",
+            "icon": "food",
+            "badge": "target"
+          },
+          {
+            "title": "Get your Order!",
+            "description": "Receive your order at a lighting fast speed!",
+            "icon": "phone",
+            "badge": "check"
+          }
+        ],
+        "description": "Order.UK simplifies the food ordering process. Browse through our diverse menu, select your favorite dishes, and proceed to checkout. Your delicious meal will be on its way to your doorstep in no time!"
+      }
+    },
+    {
+      "id": "who-we-are",
+      "label": "Who we are?",
+      "questions": [
+        "What is the mission of Order.UK?",
+        "Where does Order.UK currently operate?",
+        "How does Order.UK ensure quality?",
+        "Can I partner with Order.UK as a restaurant?",
+        "How can I contact your team?"
+      ],
+      "answer": {
+        "steps": [],
+        "description": "Order.UK is a customer-first food delivery platform focused on fast service, trusted restaurant partners, and a simple ordering experience for every user."
+      }
+    },
+    {
+      "id": "partner-program",
+      "label": "Partner Program",
+      "questions": [
+        "How do I join as a partner?",
+        "What are partner benefits?",
+        "Are there onboarding costs?",
+        "How are payouts processed?",
+        "How do I get support as a partner?"
+      ],
+      "answer": {
+        "steps": [],
+        "description": "Our partner program helps restaurants and riders grow with better visibility, operational support, and insights through a dedicated partner dashboard."
+      }
+    },
+    {
+      "id": "help-support",
+      "label": "Help & Support",
+      "questions": [
+        "How can I report an issue?",
+        "Where can I view my order history?",
+        "What happens if my order is delayed?",
+        "Can I request a refund?",
+        "How quickly do you respond to tickets?"
+      ],
+      "answer": {
+        "steps": [],
+        "description": "Our support team is available to help with order updates, payment concerns, delivery issues, and account management through quick and reliable channels."
+      }
+    }
+  ],
+  "stats": [
+    {
+      "value": "546+",
+      "label": "Registered Riders"
+    },
+    {
+      "value": "789,900+",
+      "label": "Orders Delivered"
+    },
+    {
+      "value": "690+",
+      "label": "Restaurants Partnered"
+    },
+    {
+      "value": "17,457+",
+      "label": "Food items"
+    }
+  ]
+}
