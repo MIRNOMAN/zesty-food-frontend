@@ -1,0 +1,243 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "hero": {
+        "tagline": "I'm lovin' it!",
+        "name": "McDonald’s East London",
+        "minimumOrder": "Minimum Order: 200 Taka",
+        "deliveryTime": "Delivery in 20-25 Minutes",
+        "rating": 3.4,
+        "reviews": 1360,
+        "openUntil": "Open until 3:00 AM",
+        "backgroundImageKey": "bannerHero",
+        "foodImageKey": "bannerFood"
+      },
+      "tabs": [
+        "Offers",
+        "Burgers",
+        "Fries",
+        "Snacks",
+        "Salads",
+        "Cold drinks",
+        "Happy Meal®",
+        "Desserts",
+        "Hot drinks",
+        "Sauces",
+        "Orbit®"
+      ],
+      "offers": [
+        {
+          "id": 1,
+          "title": "First Order Discount",
+          "subtitle": "McDonald's East London",
+          "discount": "-20%",
+          "imageKey": "offerOne"
+        },
+        {
+          "id": 2,
+          "title": "Vegan Discount",
+          "subtitle": "McDonald's East London",
+          "discount": "-20%",
+          "imageKey": "offerTwo"
+        },
+        {
+          "id": 3,
+          "title": "Free Ice Cream Offer",
+          "subtitle": "McDonald's East London",
+          "discount": "-100%",
+          "imageKey": "offerThree"
+        }
+      ],
+      "menuSections": [
+        {
+          "id": "burgers",
+          "title": "Burgers",
+          "items": [
+            {
+              "id": 1,
+              "title": "Royal Cheese Burger with extra Fries",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "burgerOne"
+            },
+            {
+              "id": 2,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "burgerTwo"
+            },
+            {
+              "id": 3,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "burgerThree"
+            },
+            {
+              "id": 4,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "burgerFour"
+            },
+            {
+              "id": 5,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "burgerFive"
+            },
+            {
+              "id": 6,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "burgerSix"
+            }
+          ]
+        },
+        {
+          "id": "fries",
+          "title": "Fries",
+          "items": [
+            {
+              "id": 1,
+              "title": "Royal Cheese Burger with extra Fries",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "friesOne"
+            },
+            {
+              "id": 2,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "friesTwo"
+            },
+            {
+              "id": 3,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "friesThree"
+            },
+            {
+              "id": 4,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "friesOne"
+            },
+            {
+              "id": 5,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "friesTwo"
+            },
+            {
+              "id": 6,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "friesThree"
+            }
+          ]
+        },
+        {
+          "id": "cold-drinks",
+          "title": "Cold Drinks",
+          "items": [
+            {
+              "id": 1,
+              "title": "Royal Cheese Burger with extra Fries",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "drinkOne"
+            },
+            {
+              "id": 2,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "drinkTwo"
+            },
+            {
+              "id": 3,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "drinkThree"
+            },
+            {
+              "id": 4,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "drinkFour"
+            },
+            {
+              "id": 5,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "drinkFive"
+            },
+            {
+              "id": 6,
+              "title": "The classics for 3",
+              "description": "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+              "price": "GBP 23.10",
+              "imageKey": "drinkThree"
+            }
+          ]
+        }
+      ],
+      "infoColumns": [
+        {
+          "title": "Delivery information",
+          "rows": [
+            "Monday: 12:00 AM - 3:00 AM, 8:00 AM - 3:00 AM",
+            "Tuesday: 8:00 AM - 3:00 AM",
+            "Wednesday: 8:00 AM - 3:00 AM",
+            "Thursday: 8:00 AM - 3:00 AM",
+            "Friday: 8:00 AM - 3:00 AM",
+            "Saturday: 8:00 AM - 3:00 AM",
+            "Sunday: 8:00 AM - 12:00 AM",
+            "Estimated time until delivery: 20 min"
+          ]
+        },
+        {
+          "title": "Contact information",
+          "rows": [
+            "If you have allergies or other dietary restrictions, please contact the restaurant. The restaurant will provide food-specific information upon request.",
+            "Phone number: +934443-43",
+            "Website: http://mcdonalds.uk/"
+          ]
+        },
+        {
+          "title": "Operational Times",
+          "rows": [
+            "Monday: 8:00 AM - 3:00 AM",
+            "Tuesday: 8:00 AM - 3:00 AM",
+            "Wednesday: 8:00 AM - 3:00 AM",
+            "Thursday: 8:00 AM - 3:00 AM",
+            "Friday: 8:00 AM - 3:00 AM",
+            "Saturday: 8:00 AM - 3:00 AM",
+            "Sunday: 8:00 AM - 3:00 AM"
+          ]
+        }
+      ],
+      "location": {
+        "name": "McDonald’s",
+        "city": "South London",
+        "address": "Tooley St, London Bridge, London SE1 2TF, United Kingdom",
+        "phone": "+934443-43",
+        "website": "http://mcdonalds.uk/",
+        "mapQuery": "McDonald's South London, Tooley St, London Bridge, London SE1 2TF"
+      }
+    }
+  ]
+}

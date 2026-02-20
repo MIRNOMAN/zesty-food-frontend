@@ -14,11 +14,11 @@ import {
 } from "@/components/ui/sheet";
 
 const navItems = [
-  { label: "Home", href: "#" },
-  { label: "Browse Menu", href: "#" },
-  { label: "Special Offers", href: "#" },
-  { label: "Restaurants", href: "#" },
-  { label: "Track Order", href: "#" },
+  { label: "Home", href: "/" },
+  { label: "Browse Menu", href: "/browse-menu" },
+  { label: "Special Offers", href: "/special-offers" },
+  { label: "Restaurants", href: "/restaurants" },
+  { label: "Track Order", href: "/track-order" },
 ];
 
 export default function Navbar() {
@@ -30,7 +30,7 @@ export default function Navbar() {
           <Link href="#" className="text-2xl md:text-5xl font-bold text-slate-900">
             Order
             <span className="ml-1 rounded bg-orange-500 px-1.5 py-0.5 text-xs text-white">
-              UK
+              BD
             </span>
           </Link>
         </div>

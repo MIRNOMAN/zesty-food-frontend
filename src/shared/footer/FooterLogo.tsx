@@ -6,7 +6,7 @@ export default function FooterLogo() {
     <div className="space-y-4">
       {/* Logo */}
       <div className="text-3xl font-bold">
-        Order<span className="text-gray-400">.uk</span>
+        Order<span className="text-gray-400">.bd</span>
       </div>
 
       {/* Company Info */}

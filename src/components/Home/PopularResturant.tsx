@@ -11,6 +11,7 @@ import picture_3 from "@/assets/PopularResturant/Rectangle3.png";
 import picture_4 from "@/assets/PopularResturant/Rectangle4.png";
 import picture_5 from "@/assets/PopularResturant/Rectangle5.png";
 import picture_6 from "@/assets/PopularResturant/Rectangle6.png";
+import Link from "next/link";
 
 interface Restaurant {
   id: number;
@@ -113,6 +114,7 @@ const RestaurantCard = ({ restaurant }: RestaurantCardProps) => {
 
   return (
     <Card className="overflow-hidden py-0 gap-0 shadow-md hover:shadow-xl transition duration-300 cursor-pointer bg-white rounded-2xl">
+  <Link href={`/restaurants/${restaurant.id}`} className="block">
       {/* Logo Section */}
       <div
         className={` h-32 md:h-40 lg:h-56 flex items-center justify-center relative`}
@@ -140,6 +142,7 @@ const RestaurantCard = ({ restaurant }: RestaurantCardProps) => {
           {restaurant.name}
         </h3>
       </div>
+  </Link>
     </Card>
   );
 };
