@@ -118,12 +118,12 @@ const RestaurantCard = ({ restaurant }: RestaurantCardProps) => {
         className={` h-32 md:h-40 lg:h-56 flex items-center justify-center relative`}
       >
         {!imageError && restaurant.logo ? (
-          <div className="relative w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 ">
+          <div className="relative  w-full h-full">
             <Image
               src={restaurant.logo}
               alt={restaurant.name}
               fill
-              className="object-contain w-full h-full"
+              className=" w-full h-full"
               onError={() => setImageError(true)}
             />
           </div>
