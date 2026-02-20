@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import {
@@ -11,13 +11,16 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import picture_1 from "@/assets/ExclusiveOffer/Group88.png";
+import picture_2 from "@/assets/ExclusiveOffer/Group888.png";
+import picture_3 from "@/assets/ExclusiveOffer/Group8888.png";
 
 interface RestaurantOffer {
   id: number;
   name: string;
   category: string;
   discount: string;
-  image: string;
+  image: string | StaticImageData;
 }
 
 const offers: RestaurantOffer[] = [
@@ -26,28 +29,28 @@ const offers: RestaurantOffer[] = [
     name: "Chef Burgers London",
     category: "Restaurant",
     discount: "-40%",
-    image: "/images/burger.jpg",
+    image: picture_1,
   },
   {
     id: 2,
     name: "Grand Al Cafe London",
     category: "Restaurant",
     discount: "-29%",
-    image: "/images/cafe.jpg",
+    image: picture_2,
   },
   {
     id: 3,
     name: "Butterbrot Café London",
     category: "Restaurant",
     discount: "-17%",
-    image: "/images/butterbrot.jpg",
+    image: picture_3,
   },
   {
     id: 4,
     name: "Italian Pizza House",
     category: "Restaurant",
     discount: "-35%",
-    image: "/images/pizza.jpg",
+    image: picture_1,
   },
 ];
 

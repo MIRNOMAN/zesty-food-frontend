@@ -72,7 +72,7 @@ export default function Advertisement() {
 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 md:py-8">
           <Card className="relative overflow-hidden rounded-2xl border-0 p-0 shadow-none">
-            <CardContent className="relative min-h-55 p-0 md:min-h-80">
+            <CardContent className="relative min-h-55 p-0 md:min-h-96">
               <Image
                 src={Picture_1}
                 alt="Partner with us"
@@ -100,7 +100,7 @@ export default function Advertisement() {
           </Card>
 
           <Card className="relative overflow-hidden rounded-2xl border-0 p-0 shadow-none">
-            <CardContent className="relative min-h-55 p-0 md:min-h-80">
+            <CardContent className="relative min-h-55 p-0 md:min-h-96">
               <Image
                 src={Picture_2}
                 alt="Ride with us"

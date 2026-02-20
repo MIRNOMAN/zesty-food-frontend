@@ -3,13 +3,19 @@
 import { useState } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { Card } from "@/components/ui/card";
+import picture_1 from "@/assets/PopularResturant/Rectangle.png";
+import picture_2 from "@/assets/PopularResturant/Rectangle2.png";
+import picture_3 from "@/assets/PopularResturant/Rectangle3.png";
+import picture_4 from "@/assets/PopularResturant/Rectangle4.png";
+import picture_5 from "@/assets/PopularResturant/Rectangle5.png";
+import picture_6 from "@/assets/PopularResturant/Rectangle6.png";
 
 interface Restaurant {
   id: number;
   name: string;
-  logo: string;
+  logo: string | StaticImageData;
   bgColor: string;
   initials: string;
 }
@@ -18,42 +24,42 @@ const restaurants: Restaurant[] = [
   {
     id: 1,
     name: "McDonald's London",
-    logo: "/images/restaurants/mcdonalds.png",
+    logo: picture_1,
     bgColor: "bg-red-600",
     initials: "MD",
   },
   {
     id: 2,
     name: "Papa Johns",
-    logo: "/images/restaurants/papajohns.png",
+    logo: picture_2,
     bgColor: "bg-green-700",
     initials: "PJ",
   },
   {
     id: 3,
     name: "KFC West London",
-    logo: "/images/restaurants/kfc.png",
+    logo: picture_3,
     bgColor: "bg-red-600",
     initials: "KFC",
   },
   {
     id: 4,
     name: "Texas Chicken",
-    logo: "/images/restaurants/texaschicken.png",
+    logo: picture_4,
     bgColor: "bg-white border border-gray-200",
     initials: "TC",
   },
   {
     id: 5,
     name: "Burger King",
-    logo: "/images/restaurants/burgerking.png",
+    logo: picture_5,
     bgColor: "bg-yellow-400",
     initials: "BK",
   },
   {
     id: 6,
     name: "Shaurma 1",
-    logo: "/images/restaurants/shaurma.png",
+    logo: picture_6,
     bgColor: "bg-orange-400",
     initials: "S1",
   },
@@ -109,15 +115,15 @@ const RestaurantCard = ({ restaurant }: RestaurantCardProps) => {
     <Card className="overflow-hidden py-0 gap-0 shadow-md hover:shadow-xl transition duration-300 cursor-pointer bg-white rounded-2xl">
       {/* Logo Section */}
       <div
-        className={`${restaurant.bgColor} h-32 md:h-40 lg:h-56 flex items-center justify-center relative`}
+        className={` h-32 md:h-40 lg:h-56 flex items-center justify-center relative`}
       >
         {!imageError && restaurant.logo ? (
-          <div className="relative w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32">
+          <div className="relative w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 ">
             <Image
               src={restaurant.logo}
               alt={restaurant.name}
               fill
-              className="object-contain"
+              className="object-contain w-full h-full"
               onError={() => setImageError(true)}
             />
           </div>
