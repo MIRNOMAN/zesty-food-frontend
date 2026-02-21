@@ -1,0 +1,49 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "St Glx",
+      "location": "South London",
+      "rating": 5,
+      "date": "24th September, 2023",
+      "comment": "The positive aspect was undoubtedly the efficiency of the service. The queue moved quickly, the staff was friendly, and the food was up to the usual McDonald's standard — hot and satisfying.",
+      "avatarUrl": "https://i.pravatar.cc/100?img=47"
+    },
+    {
+      "id": 2,
+      "name": "Mia Brown",
+      "location": "East London",
+      "rating": 5,
+      "date": "11th October, 2023",
+      "comment": "Great experience from order to delivery. Packaging was neat, fries were still crisp, and the burger tasted fresh. Delivery rider was polite and arrived within the estimated time.",
+      "avatarUrl": "https://i.pravatar.cc/100?img=32"
+    },
+    {
+      "id": 3,
+      "name": "Aiden Khan",
+      "location": "North London",
+      "rating": 4,
+      "date": "28th November, 2023",
+      "comment": "Food quality was nice and portions were good. The app tracking was accurate, which made the process convenient. I would order again for quick meals.",
+      "avatarUrl": "https://i.pravatar.cc/100?img=12"
+    },
+    {
+      "id": 4,
+      "name": "Emily Ross",
+      "location": "Central London",
+      "rating": 5,
+      "date": "3rd January, 2024",
+      "comment": "Excellent value for money. My order arrived warm, and all customization notes were followed correctly. Really happy with the consistency.",
+      "avatarUrl": "https://i.pravatar.cc/100?img=24"
+    },
+    {
+      "id": 5,
+      "name": "Noah Smith",
+      "location": "West London",
+      "rating": 4,
+      "date": "16th February, 2024",
+      "comment": "Quick delivery and reliable service. I liked that the drinks were secured well and there were no spills. Overall a smooth ordering experience.",
+      "avatarUrl": "https://i.pravatar.cc/100?img=36"
+    }
+  ]
+}

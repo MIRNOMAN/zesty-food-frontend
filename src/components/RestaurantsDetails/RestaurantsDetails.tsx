@@ -9,6 +9,8 @@ import RestaurantHeroSection from "./RestaurantHeroSection";
 import RestaurantInfoSection from "./RestaurantInfoSection";
 import RestaurantMenuSection from "./RestaurantMenuSection";
 import RestaurantOffersSection from "./RestaurantOffersSection";
+import CustomerReviews from "./CustomerReviews";
+import SimilarRestaurants from "./SimilarRestaurants";
 import {
   getRestaurantDetailsById,
   getRestaurantImage,
@@ -126,6 +128,11 @@ export default function RestaurantsDetails({ restaurantId }: Props) {
           infoColumns={restaurant.infoColumns}
           location={restaurant.location}
         />
+
+       
+
+        <CustomerReviews />
+         <SimilarRestaurants />
       </div>
     </main>
   );

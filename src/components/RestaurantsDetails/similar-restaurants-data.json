@@ -1,0 +1,34 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "McDonald’s London",
+      "imageKey": "restaurantOne"
+    },
+    {
+      "id": 2,
+      "name": "Papa Johns",
+      "imageKey": "restaurantTwo"
+    },
+    {
+      "id": 3,
+      "name": "KFC West London",
+      "imageKey": "restaurantThree"
+    },
+    {
+      "id": 4,
+      "name": "Texas Chicken",
+      "imageKey": "restaurantFour"
+    },
+    {
+      "id": 5,
+      "name": "Burger King",
+      "imageKey": "restaurantFive"
+    },
+    {
+      "id": 6,
+      "name": "Shaurma 1",
+      "imageKey": "restaurantSix"
+    }
+  ]
+}
