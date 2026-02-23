@@ -28,7 +28,8 @@ export default function ForgotPassword() {
   }
 
   return (
-    <Card className="max-w-md mx-auto">
+   <div className="md:py-48 py-16">
+     <Card className="max-w-md mx-auto">
       <CardHeader>
         <CardTitle>Forgot password</CardTitle>
         <CardDescription>
@@ -63,5 +64,6 @@ export default function ForgotPassword() {
         </Button>
       </CardFooter>
     </Card>
+   </div>
   );
 }

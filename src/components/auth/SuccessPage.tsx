@@ -13,7 +13,8 @@ import {
 
 export default function SuccessPage() {
   return (
-    <Card className="max-w-md mx-auto text-center">
+ <div className="md:py-48 py-16">
+     <Card className="max-w-md mx-auto text-center">
       <CardHeader>
         <CardTitle>Password reset</CardTitle>
         <CardDescription>
@@ -33,5 +34,6 @@ export default function SuccessPage() {
         </div>
       </CardContent>
     </Card>
+ </div>
   );
 }

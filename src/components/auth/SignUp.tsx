@@ -30,7 +30,8 @@ export default function SignUp() {
   }
 
   return (
-    <Card className="max-w-md mx-auto">
+  <div className="md:py-48 py-16">
+      <Card className="max-w-md mx-auto">
       <CardHeader>
         <CardTitle>Create account</CardTitle>
         <CardDescription>
@@ -85,5 +86,6 @@ export default function SignUp() {
         </Button>
       </CardFooter>
     </Card>
+  </div>
   );
 }

@@ -28,7 +28,8 @@ export default function OtpVerification() {
   }
 
   return (
-    <Card className="max-w-md mx-auto">
+<div className="md:py-48 py-16">
+      <Card className="max-w-md mx-auto">
       <CardHeader>
         <CardTitle>Verify code</CardTitle>
         <CardDescription>
@@ -69,5 +70,6 @@ export default function OtpVerification() {
         </Button>
       </CardFooter>
     </Card>
+</div>
   );
 }
