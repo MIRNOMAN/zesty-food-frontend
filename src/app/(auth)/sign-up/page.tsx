@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import SignUp from "@/components/auth/SignUp";
 
 export default function page() {
   return (
-    <div>page</div>
-  )
+    <main className="py-10 px-4">
+      <SignUp />
+    </main>
+  );
 }
